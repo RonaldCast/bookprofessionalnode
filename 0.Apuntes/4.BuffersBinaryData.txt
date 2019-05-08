@@ -1,0 +1,25 @@
+> Using Buff ers to Manipulate, Encode, and Decode Binary Data
+
+> La longitud de un buffer se especifica en bytes
+
+> Que es un buffer es un parte del hardware que va almacenado 
+informacion de manera temporar, se utiliza en software cuando la 
+tranferenciad de datos es distinta a la procesada 
+
+>Implementacion de un buffer
+
+*Se puede crear un buffer a partir de una cadena de tipo UTF-8
+o cualquier otra codificacion siempre que lleve la codificacion 
+en el segundo argumento. 
+var buf = new Buffer('8b76fde713ce', 'base64');
+
+>> Base64. Esta codificación se utiliza para representar
+ datos binarios en un formato de cadena ASCII al convertirlos 
+ en una representación de radix-64. Base64 se usa comúnmente 
+ para incrustar datos binarios en documentos de texto de una 
+ manera que garantice que los datos permanezcan intactos durante el transporte.
+
+>> Si no tiene el contenido inicial para un búfer y necesita 
+crear un búfer con cierta capacidad para almacenar datos en el futuro, puede crear un 
+nuevo búfer especificando su longitud de la siguiente manera:
+var buf = new Buffer(1024)

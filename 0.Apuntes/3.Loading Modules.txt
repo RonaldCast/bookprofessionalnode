@@ -1,0 +1,9 @@
+> Node implenta el estandar de modulo CommonJS
+. En este estándar, cada módulo tiene su propio contexto,
+ separado de los otros módulos.
+
+ ***Buena practica 
+   > Dividir el código en modulos es una buena practica
+
+> se puede esportar un carpeta completa solo si posee el package.json
+y el main de package.json tiene el nombre del archivo de entrada 

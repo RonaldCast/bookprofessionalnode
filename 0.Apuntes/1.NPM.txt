@@ -1,0 +1,37 @@
+> Tipo de instalaciones 
+    * De manera global: se usa para instalar modulo 
+        en todo el sistema, estos son utilizados 
+        en todos las aplicaciones. el modo global se activa 
+        con -g
+
+
+    * De manera Local: No realiza cambio en todo el sistema sino 
+        que solo realiza cambio en el proyecto. 
+
+> instalacion de: npm install -g sax
+
+> Comandos, con el siguientes comandos 
+    * Para instalar la ultima version de un paquete
+        npm i <package name>
+    * Para instalar un version especifica 
+         npm install <package name>@<version spec>
+    * Si se desea instalar la version despues de 0.2. se pone 0.2.x 
+          npm install sax@0.2.x
+    * Si se desea instalar una version antes de la espeificada 
+        npm i sax@"<0.3"
+    * Para instalar las versiones entre ese instervalo 
+         npm install sax@">=0.1.0 <0.3.1"
+    * Para desinstalar un modulo
+         npm uninstall <package name>
+    * Para desinstalar modulo global 
+        npm uninstall -g <package name>
+    * Para actualizar un paquete se usa 
+        npm update <package name>
+    * Para instalar cualquier dependencia faltante en el node_modules 
+        npm install 
+    * Para actualizar todo los paquetes instalado localmente 
+        npm update 
+    
+
+
+        

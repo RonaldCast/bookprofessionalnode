@@ -1,0 +1,31 @@
+> El multihilo es una alternativa a este modelo
+de programación. Un hilo es un tipo de proceso 
+ligero que comparte memoria con
+todos los demás hilos dentro del mismo proceso.
+
+> La programación dirigida por eventos es un
+estilo de programación en 
+el que el flujo de ejecución está determinado por los eventos.
+estos utilizan cotroladores de eventos que se emiten cuando sucede 
+algo relevante en el objecto que posee dicho evento.
+
+> Programacion tipica de bloqueo, ese espera hasta que se realice 
+  la consulta  la base de datos y retorne el resultado 
+  Ejemplo: 
+        result = query('SELECT * FROM posts WHERE id = 1');
+        do_something_with(result);
+
+> Event-driver, sistema controlado por evento 
+  Esta invocara la funcion cuando finalize la consulta, 
+  a esto se le llama programcion asincrona 
+    Ejemplo
+    query_finished = function(result) {
+        do_something_with(result);
+    }
+    query('SELECT * FROM posts WHERE id = 1', query_finished);
+
+> Bucles de eventos: es un bucle continua de deteccion de evento 
+y activacion de controladores de enventos 
+
+> Que son los Closures: son funciones que 
+heredan variables de su entorno envolvente.
