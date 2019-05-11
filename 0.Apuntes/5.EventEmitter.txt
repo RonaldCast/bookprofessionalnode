@@ -1,0 +1,52 @@
+> En Node> muchos objectos emiten eventos 
+Node proporsiona una pseudo clase para crear lo 
+nuestros propios servidores de eventos, llamada EventEmitter
+
+Cuando utiliza un patrón de emisor de eventos, 
+intervienen dos o más objetos: el emisor de eventos
+ y uno o más detectores de eventos.
+
+ NOTA: Como regla general, use CPS cuando desee recuperar el control
+  después de que se complete
+  la operación solicitada y use el patrón del emisor de eventos
+   cuando un evento puede ocurrir varias veces.
+
+Tipos de eventos: 'data', 'end', 'error'
+
+> API de EventEmitter
+
+
+➤ .addListener y .on - Para agregar un detector de 
+eventos a un tipo de evento 
+➤ .once: para adjuntar 
+un detector de eventos a un tipo de evento dado que 
+se llamará una vez como máximo 
+➤ .removeEventListener - Para eliminar un detector de eventos 
+específico de un evento dado: 
+    object.removeListener('EventType', callback)
+    emitter.removeAllListeners('EventType');
+➤ removeAllEventListeners - Para eliminar todos los oyentes 
+de eventos de un tipo de evento dado Echemos un vistazo más de cerca a ellos.
+
+
+> El patrón de emisores de eventos permite que varios
+ oyentes de eventos escuchen el mismo tipo de evento en 
+ el mismo emisor de eventos.
+
+ //para erredar el emisor de evento
+
+se utiliza util: que configura el prototype para la clase en cuestion ejemplo
+
+util.inherits(padrastro, objectoQueVaHederda)
+* si una clase hereda de event emiter entonces la clase pude emitir eventos. 
+ejemplo:
+
+
+
+
+
+
+
+
+
+

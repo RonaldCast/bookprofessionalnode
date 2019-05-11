@@ -1,0 +1,7 @@
+> process.nextTick(): se ejecuta inmediatamente despues que se 
+hayan ejecuado todos los evento en la cola de eventos.
+
+NOTA: No debería realizar operaciones intensivas 
+de CPU dentro del bucle de eventos y que puede
+aplazar la ejecución de una función hasta la próxima
+iteración del bucle de eventos utilizando process.nextTick ().
