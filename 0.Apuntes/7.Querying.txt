@@ -1,0 +1,10 @@
+> Hay tres descriptores de archivo especiales: 1, 2 y 3. 
+Representan, respectivamente, la entrada estándar, 
+la salida estándar y los descriptores de archivo de error estándar
+
+> Modelu path: permite normalizar, unir y resolver rutas, 
+así como encontrar rutas relativas entre rutas absolutas, 
+extraer componentes de las rutas y determinar la existencia de rutas. 
+
+> El módulo fs es donde se almacenan todas las funciones de 
+consulta y manipulación de archivos
