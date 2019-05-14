@@ -1,0 +1,5 @@
+> Realizar multiples tareas fuera del proceso de Node
+
+> Cuando necesite iniciar un comando de shell
+ externo o un archivo ejecutable, 
+puede hacerlo usando el "módulo child_process". 
